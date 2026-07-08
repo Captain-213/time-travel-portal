@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#062345,#476fea,#a8b386,#f95f5f);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.container #pre{
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #00ff22;
+    text-shadow: 2px 2px 5px rgba(255, 0, 204, 0.5);
+    /* background: 5px linear-gradient(red,orange,yellow,green,blue,#c401ff,red); */
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    background-image: url();
+}
+h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #00ff22;
+    text-shadow: 2px 2px 5px rgba(255, 0, 204, 0.5);
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+}
+h1:hover{
+    background-image: none;
+}
+.container {
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #1c3d5a;
+    border-radius: 20px;
+    /* background-color: #0a1e4a; */
+    background-image: url(https://media.giphy.com/media/3oAt1QhqIJa8Xsr0uQ/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 450px;
+}
+
+input[type="number"] {
+    width: calc(100% - 50%);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e8f6ff;
+    color: #000;
+    font-size: larger;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #01b4f0;
+    color: #04ff00;
+    text-shadow: 2px 2px 2px rgba(0, 8, 255, 0.742);
+    border: 5px solid red;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+button:hover {
+    text-shadow: 2px 2px 2px rgb(8, 0, 255);
+    background-color: #00b51e;
+    color: #ffffff;
+    /* border: 5px solid red; */
+}
+
+.hidden {
+    display: none;
+}
+
+.earth-img {
+    margin-top: 20px;
+    animation: spin 10s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.loading-img {
+    width: 200px;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 0.8em;
+    color: #ffffff;
+}
+
+footer a {
+    color: #0101f0;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+

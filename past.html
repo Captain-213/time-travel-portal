@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Past Events</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .box{
+            margin: 10px;
+            padding: 20px;
+            border: 2px solid #ccc;
+            color: #ffffff;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 30px;
+        }
+        #past{
+            background-image: url(https://c.tenor.com/Ej0i11AkcawAAAAC/waiting-time.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #past:hover{
+            background-image: none;
+            background: green;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to the Past</h1>
+    <div class="box">
+        <div id="pastContent"></div>
+    </div>
+        <button id="past" onclick="window.location.href='index.html'">Travel Again!</button>
+
+
+    <script src="past_script.js"></script>
+</body>
+
+</html>
